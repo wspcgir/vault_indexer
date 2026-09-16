@@ -12,7 +12,7 @@ from rank_bm25 import BM25Okapi
 
 # --- Configuration ---
 OLLAMA_BASE_URL = "http://localhost:11434"
-EMBEDDING_MODEL = "mxbai-embed-large"  # or nomic-embed-text
+EMBEDDING_MODEL = "nomic-embed-text"
 DB_DIR = "./.vault_index"
 CHUNK_SIZE = 800  # character limit per chunk
 CHUNK_OVERLAP = 150
