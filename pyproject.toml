@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vault-indexer"
+version = "0.1.0"
+description = "Obsidian Hybrid Semantic & Frontmatter Search Engine"
+dependencies = [
+  "lancedb",
+  "pyyaml",
+  "requests",
+  "rank-bm25",
+  "numpy"
+]
+
+[project.scripts]
+vault-indexer = "vault_indexer:main"
