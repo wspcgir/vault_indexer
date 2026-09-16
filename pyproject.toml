@@ -11,7 +11,7 @@ dependencies = [
   "pyyaml",
   "requests",
   "rank-bm25",
-  "numpy"
+  "numpy",
   "pandas"
 ]
 
