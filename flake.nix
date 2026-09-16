@@ -35,6 +35,7 @@
               requests
               rank-bm25
               numpy
+              pandas
             ];
 
             doCheck = false;

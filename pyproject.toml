@@ -12,6 +12,7 @@ dependencies = [
   "requests",
   "rank-bm25",
   "numpy"
+  "pandas"
 ]
 
 [project.scripts]
